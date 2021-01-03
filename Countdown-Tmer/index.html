@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Count Down Timer</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<header><h1>CountDown</h1></header>
+	<div class="content">
+		<div class="counter"> </div>
+		<input type="number"  id="seconds" placeholder="seconds">
+		<div class="buttons">
+			<button class="btn start" id="start" value="1" onclick="check(this)">Start</button>
+			<button class="btn start" id="continue" value="1" onclick="check(this)">Continue</button>
+			<button class="btn stop" id="stop" value="0" onclick="check(this)">Stop</button>
+			<button class="btn start" id="ok" onclick="tosubmit()"> Submit </button>
+		</div>
+	</div>	
+	<script type="text/javascript" src="app.js"></script>	
+</body>
+</html>
